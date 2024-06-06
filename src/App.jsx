@@ -134,11 +134,11 @@ function App() {
                   {isBmi &&
                     (bmi >= 18.5 && bmi <= 24.9 ? (
                       <p>
-                        <img src={"./src/images/good.gif"} alt="" />
+                        <img src={"./good.gif"} alt="" />
                       </p>
                     ) : (
                       <p>
-                        <img src={"./src/images/bad.gif"} alt="" />
+                        <img src={"./bad.gif"} alt="" />
                       </p>
                     ))}
                 </div>
@@ -147,7 +147,7 @@ function App() {
           </form>
         </div>
         <div className="img-scale">
-          <img src={"./src/images/bmiscale.png"} alt="" />
+          <img src={"./bmiscale.png"} alt="" />
         </div>
       </div>
     </div>

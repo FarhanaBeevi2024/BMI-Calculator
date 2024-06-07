@@ -74,13 +74,13 @@ function App() {
   };
 
   return (
-    <div className="container">
+    <div className="row w-100 ms-4 ms-md-0">
     <div
-      className="d-flex justify-content-center align-items-center "
+      className="d-flex col-xl-3 col-lg-4 col-md-6 col-12 justify-content-center align-items-center "
       style={{ width: "100%", height: "100vh" }}
     >
-      <div className="p-3 bg-light rounded " style={{ width: "550px" }}>
-        <div className="px-3">
+      <div className="p-3  bg-light rounded " style={{ width: "550px" }}>
+        <div className="px-3 ">
           <h1 className=" text-center">BMI Calculator</h1>
           <p className="text-center">Check your Body Mass Index Easily</p>
 
